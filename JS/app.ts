@@ -165,3 +165,38 @@ const retornoInancalzable2 = (number:number):never => {
     console.log(number++);    
   }
 }
+
+//Declarando variables
+let greet:string;
+let number:number;
+let students:string[];
+
+//Assigning values
+greet = "Hello World!"
+number = 22.3;
+students = ["a","b"]
+
+interface marvel{
+  heroName:string;
+  power:string;
+}
+
+let hero3 = {
+  heroName: "Iron Man",
+  power3: "armour",
+}
+
+type tres = {
+3:3;
+};
+
+let num3:tres;
+num3 = {
+  3:3
+};
+
+type even = 2|4|6|8|10;
+type dos = 2;
+
+let num2:dos = 2;
+let evenNumber:even = 6

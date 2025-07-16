@@ -105,3 +105,21 @@ const retornoInancalzable2 = (number) => {
         console.log(number++);
     }
 };
+//Declarando variables
+let greet;
+let number;
+let students;
+//Assigning values
+greet = "Hello World!";
+number = 22.3;
+students = ["a", "b"];
+let hero3 = {
+    heroName: "Iron Man",
+    power3: "armour",
+};
+let num3;
+num3 = {
+    3: 3
+};
+let num2 = 2;
+let evenNumber = 6;
